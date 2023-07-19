@@ -295,7 +295,7 @@ header {
 }
 
 .down p {
-    font-size: 1rem;
+    font-size: .9rem;
     font-weight: 800;
 }
 
@@ -556,7 +556,6 @@ text-align: center;
         flex-direction: column;
         width: 100%;
     }
-
     .nav-content ul {
         flex-direction: column;
     }
@@ -613,7 +612,7 @@ text-align: center;
     }
 
     .card {
-        grid-template-columns: repeat(1, .9fr);
+        grid-template-columns: repeat(2, .9fr);
     }
 
 
@@ -663,11 +662,11 @@ text-align: center;
     }
 
     .logo-title {
-        font-size: .5rem;
+        font-size: 1rem;
     }
 
     .down .logo-title {
-        font-size: .4rem;
+        font-size: 1rem;
         font-weight: 700;
     }
 
@@ -678,7 +677,8 @@ text-align: center;
 }
 
 .footer-section-container {
-    width: 80%;}
+    width: 80%;
+}
 
 .footer-section-info {
 
