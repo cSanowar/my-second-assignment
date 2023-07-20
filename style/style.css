@@ -207,6 +207,48 @@ header {
 
 }
 
+
+.video-box .play-btn{
+    color: #fff;
+    font-size: 50px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+      margin:-200px;
+      margin-left:60px;
+      margin-right: auto;
+    text-align: center;
+    border-radius: 50%;
+    opacity: 0;
+
+ }
+ .video-box .play-btn img{
+    line-height: 100px;
+    margin: auto;
+
+ }
+ .video-box:hover{
+    border: 2px solid white;
+    border-radius: 16px;
+ }
+ .video-box:hover .play-btn{
+    border: 2px solid #f60;
+    animation: animate 1.5s linear infinite;
+ }
+ @keyframes animate{
+    0%{
+        transform: scale(.5);
+            }
+            50%{
+                opacity: 1;
+            }
+            100%{
+                transform: scale(1.5);
+            }
+ }
+
+
+
 .card p {
     color: #534C64;
     font-size: 1.12rem;
@@ -441,6 +483,11 @@ header {
     .online-game-section-decription {
         font-size: .8rem;
     }
+    .video-box .play-btn{
+        
+        margin:-280px;
+        margin-left:120px;
+    }
 
     .card p {
         margin-top: 20px;
@@ -504,7 +551,7 @@ header {
     }
 
     .down .logo-title {
-        font-size: .8rem;
+        font-size: .4rem;
         font-weight: 700;
     }
 
@@ -603,6 +650,8 @@ text-align: center;
     .online-game-section-decription {
         font-size: .8rem;
     }
+
+   
 
     .card p {
         margin-top: 20px;
